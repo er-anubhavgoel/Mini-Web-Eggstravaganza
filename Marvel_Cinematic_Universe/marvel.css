@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    min-height: 700px;
+    background-image: url("https://i.pinimg.com/originals/fa/cf/f9/facff90fa4bfd724b4f9455424a3db69.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    display: flex;
+    align-items: center; /*y-Axis*/
+    justify-content: center; /*x-Axis*/
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section>article {
+    width: 200px;
+    min-height: 250px;
+    border: 1px solid;
+    background-color: rgba(241, 6, 6, 0.631);
+    position: relative;
+}
+
+section>article>figure {
+    width: 95%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5px auto auto auto;
+}
+
+section>article>h2 {
+    text-align: center;
+    color: rgb(242, 255, 0);
+    /* padding: 1px; */
+    /* background-color: rgb(255, 230, 0); */
+}
+
+section>article>p {
+    padding: 5px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+section>article>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+section>article>div>button {
+    height: 100%;
+    background-color: rgba(255, 255, 0, 0.805);
+    border: 1px dotted darksalmon;
+    margin: 20px auto 0px;
+    padding: 5px 10px;
+}
+
+section>article>div>button:hover {
+    cursor: pointer;
+    transition: all 0.25s ease;
+    transform: scale(1.2);
+}
+
+section>article>div>button>a:link {
+    color: brown;
+    text-decoration: none;
+}
+
+section>article>div>button>a:visited {
+    color: crimson;
+    text-decoration: underline;
+}
+
+section>article>div>button>a:active {
+    color: brown;
+    text-decoration: underline;
+}
+
+#IronMan {
+    background-image: url("https://wallpapers.com/images/hd/iron-man-pictures-k83lqhe6vnh95b1m.jpg");
+}
+
+#SpiderMan {
+    background-image: url("https://assets.telegraphindia.com/telegraph/2022/Aug/1661588323_spider-man1.jpg");
+}
+
+#Thor {
+    background-image: url("https://i.guim.co.uk/img/media/8a909548160d6e75313421b6a160b3edd026ee78/0_13_4535_2722/master/4535.jpg?width=700&quality=85&auto=format&fit=max&s=08af07a87377b2ddc4e48bd030ad1d03");
+}
+
+#DoctorStrange {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSzUBJAzmprfzrfmplucnzKeT0p6fFg-MnQ&usqp=CAU");
+}
+
+#CaptainAmerica {
+    background-image: url("https://mrwallpaper.com/images/high/thor-hammer-captain-america-laptop-52w0soyzy94o3t84.jpg");
+}
+
+#BlackPanther {
+    background-image: url("https://www.slashfilm.com/img/gallery/black-panther-wakanda-forever-production-delayed-again-due-to-positive-covid-tests/intro-1642618786.jpg");
+}
+
+#BlackWidow {
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/vN_HpbpNj2c6xhVLA_VfuA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQxNA--/https://media.zenfs.com/en-US/thewrap.com/0103eda6b00271504708c9a6e9a4506c");
+}
+
+#CaptainMarvel {
+    background-image: url("https://cdn.marvel.com/content/1x/captainmarvel_lob_mas_mob_03_0.jpg");
+}
+
+#ScarletWitch {
+    background-image: url("https://www.dexerto.com/cdn-image/wp-content/uploads/2024/07/09/wanda-maximoff-alive-mcu-2.jpg?width=3840&quality=60&format=auto");
+}
+
+#Gamora {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/05/guardians-of-the-galaxy-vol-3-zoe-saldana.jpg");
+}
+
+#NickFury {
+    background-image: url("https://helios-i.mashable.com/imagery/articles/00MUGCMR3HDM1NxtxOE86j8/hero-image.fill.size_1248x702.v1623383907.png");
+}
+
+#AgentMaria {
+    background-image: url("https://www.superherohype.com/wp-content/uploads/sites/4/2023/07/maria-hill-avengers-mcu-cobie-smulders.jpg");
+}
+
+#Phil {
+    background-image: url("https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/34/1472139495-phil-coulson-agents-of-shield.jpg");
+}
+
+#PeggyCarter {
+    background-image: url("https://wallpapers.com/images/featured/peggy-carter-kt5omfh3zj8d2xr4.jpg");
+}
+
+#StanLee {
+    background-image: url("https://images.thedirect.com/media/article_full/stan-lee-marvel-mcu-avengers.jpg");
+}

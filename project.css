@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav>ul {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+@media (max-width: 450px) {
+    nav>ul {
+        width: 100%;
+    }
+}
+
+nav>ul>li, nav>ul>li>button {
+    height: 50%;
+    width: 80px;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s ease;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    background-color: bisque;
+    color: darkmagenta;
+    transform: scale(1.1);
+}
+
+nav>h1 {
+    margin: auto;
+    margin-left: 10px;
+    width: 320px;
+    font-weight: 800;
+    margin-right: 350px;
+}
+
+nav>ul>li, nav>ul>li>a, nav>ul>li>button {
+    color: bisque;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav>ul>li:hover>a, nav>ul>li:hover>button {
+    color: darkmagenta;
+}
+
+/* todo: Home Container */
+#homecontainer, #aboutcontainer, #registercontainer, #logincontainer {
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgImage {
+    background-image: url(./assets/abstractBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   /* Keeps the image fixed in the viewport */
+}
+
+#homecontainer>h1, #aboutcontainer>h1, #registercontainer>h1, #logincontainer>h1 {
+    font-size: 50px;
+    color: darkmagenta;
+}
+
+/* todo: Login Page Form */
+#formheading, .bgImage>h1 {
+    color: darkmagenta;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+form {
+    width: 50%;
+    padding: 20px;
+    color: darkmagenta;
+    border: 2px blueviolet solid;
+    border-radius: 10px;
+}
+
+form>.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+form>.form-group>label {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+form>.form-group>input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid blueviolet;
+    font-size: 15.5px;
+    font-weight: 600;
+    color: rgb(151, 13, 41);
+    outline: none;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+form>.form-group>.btn {
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: rgb(248, 200, 209);
+    font-weight: 800;
+    font-size: 15px;
+    padding: 8px;
+    transition: all 0.2s ease;
+}
+
+form>.form-group>.btn:hover {
+    background-color: rgb(71, 16, 122);
+    color: bisque;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* todo: Products */
+#bodyArticle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    background-color: rgb(222, 255, 255);
+    color: brown;
+    border: 1px solid black;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px blueviolet;
+    align-items: center;
+    padding: 20px;
+}
+
+.container>img {
+    mix-blend-mode: darken;
+    margin: 10px 10px;
+    height: 100%;
+    max-width: 150px;
+}
