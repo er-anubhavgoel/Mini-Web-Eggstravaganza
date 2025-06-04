@@ -54,6 +54,9 @@ nav>h1 {
     width: 320px;
     font-weight: 800;
     margin-right: 350px;
+    cursor: pointer;
+    text-decoration: none;
+    color: bisque;
 }
 
 nav>ul>li, nav>ul>li>a, nav>ul>li>button {
